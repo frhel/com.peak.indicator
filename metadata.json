@@ -1,0 +1,13 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Name": "Peak Hour Indicator",
+        "Description": "Shows whether it is currently a peak UTC hour",
+        "Category": "System Information",
+        "Icon": "clock",
+        "Id": "com.peak.indicator",
+        "EnabledByDefault": true
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
