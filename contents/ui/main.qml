@@ -10,8 +10,16 @@ PlasmoidItem {
     id: root
     property bool isPeak: false
 
+    // ponytail: hardcoded effective date — update when actual date is announced.
+    property date effectiveDate: new Date(Date.UTC(2026, 6, 16)) // July 16, 2026 UTC
+
     function update() {
-        var h = new Date().getUTCHours();
+        var now = new Date();
+        if (now < effectiveDate) {
+            root.isPeak = false;
+            return;
+        }
+        var h = now.getUTCHours();
         root.isPeak = (h >= 1 && h < 4) || (h >= 6 && h < 10);
     }
 
