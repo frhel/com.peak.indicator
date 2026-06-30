@@ -1,7 +1,7 @@
 {
     "KPackageStructure": "Plasma/Applet",
     "KPlugin": {
-        "Name": "Peak Hour Indicator",
+        "Name": "DeepSeek Peak Hour Indicator",
         "Description": "Shows whether it is currently a peak UTC hour",
         "Category": "System Information",
         "Icon": "clock",

@@ -1,4 +1,4 @@
-# Peak Hour Indicator — KDE Plasma 6 Plasmoid
+# DeepSeek Peak Hour Indicator — KDE Plasma 6 Plasmoid
 
 A minimal KDE Plasma 6 panel/taskbar applet that shows whether the current time falls within peak UTC electricity hours. Displays the DeepSeek whale logo — dimmed with a red dot during peak hours, full color during off-peak.
 
